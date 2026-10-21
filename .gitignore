@@ -1,0 +1,19 @@
+# Airflow and system logs
+logs/
+airflow/logs/
+*.log
+
+# Data lake / landing file storage contents (keeping the folder structure if needed, or ignoring contents)
+datalake/
+data/landing/
+data/staging/
+data/warehouse/
+
+# Python / IDE cache
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+.DS_Store
